@@ -28,8 +28,8 @@ def set_color(new_color, image, size, x, y):
 
 
 if __name__ == "__main__":
-    source_name = input("исходное имя: ")
-    output_name = input("выходное имя: ")
+    source_name = "test_image.jpg"
+    output_name = "res.jpg"
 
     source_img = Image.open(source_name)
     image_arr = np.array(source_img).astype(int)
